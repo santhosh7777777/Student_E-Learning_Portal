@@ -1,0 +1,167 @@
+/* CoursePage.css */
+
+.course-page {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    height: auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px; /* Add spacing between title and progress circle */
+}
+
+.sidebar li.active {
+    background-color:white ;
+    color: #00adef;
+}
+
+.lesson-info {
+    display: flex;
+    align-items: center;
+}
+
+.lesson-info span {
+    margin-right: 15px; /* Space between title and progress circle */
+}
+
+.lesson-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.lesson-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.lesson-content video {
+    width: 100%;
+    max-height: 400px;
+    margin-bottom: 20px;
+}
+
+.lesson-content p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.lesson-content h4 {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+
+
+
+/* CoursePage.css */
+
+.course-page {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    height: auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px; /* Add spacing between title and progress circle */
+}
+
+.sidebar li.active {
+    background-color:white ;
+    color: #00adef;
+}
+
+.lesson-info {
+    display: flex;
+    align-items: center;
+}
+
+.lesson-info span {
+    margin-right: 15px; /* Space between title and progress circle */
+}
+
+.lesson-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.lesson-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.lesson-content video {
+    width: 100%;
+    max-height: 400px;
+    margin-bottom: 20px;
+}
+
+.lesson-content p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.lesson-content h4 {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.take-quiz {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.take-quiz button {
+    background-color: #00adef;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.take-quiz button:hover {
+    background-color: #0094d7;
+}

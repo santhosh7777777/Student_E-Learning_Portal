@@ -1,0 +1,85 @@
+.payment-page {
+  display: flex;
+  padding: 20px;
+}
+
+.payment-methods {
+  flex: 1;
+}
+
+.payment-methods button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #f8f8f8;
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+}
+
+.payment-methods button.active {
+  background: #00adef;
+  color: white;
+}
+
+.payment-details {
+  flex: 2;
+  padding: 20px;
+}
+.payment-details input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #e8e8e8;
+}
+
+.coupon-code {
+  display: flex;
+}
+
+.coupon-code input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.coupon-code button {
+  padding: 10px;
+  background: #00adef;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.coupon-code button:hover {
+  background: #007bb5;
+}
+
+.summary {
+  flex: 1;
+  padding: 20px;
+  background: #f8f8f8;
+  border: 1px solid #e8e8e8;
+}
+
+.summary h2 {
+  margin-top: 0;
+}
+
+.summary p {
+  margin: 10px 0;
+}
+
+.pay-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #00adef;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.pay-button:hover {
+  background: #007bb5;
+}

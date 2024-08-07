@@ -1,0 +1,69 @@
+.course-landing-page {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .profile-dropdown {
+    position: relative;
+  }
+  
+  .profile-dropdown img {
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .profile-dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .course-content {
+    padding: 20px;
+  }
+  
+  .course-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .course-details p {
+    margin: 10px 0;
+  }
+  
+  .course-actions {
+    margin-top: 20px;
+  }
+  
+  .add-to-cart-button, .enroll-button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background: #00adef;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-button:hover, .enroll-button:hover {
+    background: #007bb5;
+  }
+  

@@ -1,0 +1,110 @@
+.membership-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.membership-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.membership-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.membership-card-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.membership-card-content {
+    text-align: center;
+    flex: 1; /* Allow this section to grow and take available space */
+}
+
+.membership-card h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #00adef;
+    margin: 10px 0;
+}
+
+.membership-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.membership-card li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.benefit-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.benefit-tick {
+    color: #28a745;
+}
+
+.benefit-cross {
+    color: #dc3545;
+}
+
+.membership-card-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.membership-card-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.membership-card-button {
+    background-color: #00adef;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.membership-card-button:hover {
+    background-color: #0091d5;
+}

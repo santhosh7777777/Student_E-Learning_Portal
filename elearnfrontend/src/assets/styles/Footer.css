@@ -1,0 +1,124 @@
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-logo {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .logo-image {
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-description {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 40px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-column a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-column a:hover {
+    color: #00adef;
+  }
+  
+  .social-media-list {
+    padding-left: 0;
+  }
+  
+  .social-media-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .social-media-list a {
+    display: flex;
+    align-items: center;
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .social-media-list a:hover {
+    color: #00adef;
+  }
+  
+  .social-media-list svg {
+    margin-right: 8px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e9ecef;
+  }
+  
+  .footer-copyright {
+    font-size: 14px;
+  }
+  
+  .footer-privacy-terms {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-privacy-terms a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-privacy-terms a:hover {
+    color: #00adef;
+  }
+  
